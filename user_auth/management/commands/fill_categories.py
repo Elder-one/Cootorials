@@ -8,4 +8,3 @@ class Command(BaseCommand):
         for el in list_:
             obj_ = RecipeCategory(name=el)
             obj_.save()
-            
