@@ -131,7 +131,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-MEDIA_URL = "/media/"
+MEDIA_URL = "https://www.pythonanywhere.com/user/Elder9one/files/home/Elder9one/Cootorials/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
