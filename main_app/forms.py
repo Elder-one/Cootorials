@@ -23,11 +23,9 @@ class NewRecipeForm(forms.Form):
                                      'class': 'new-recipe-choice-field',
                                      'placeholder': 'Выберите',
                                  }))
-
-
-image = forms.ImageField(required=True, label='Изображение', widget=forms.FileInput(attrs={
-    'class': 'new-recipe-image-field',
-}))
+    image = forms.ImageField(required=True, label='Изображение', widget=forms.FileInput(attrs={
+        'class': 'new-recipe-image-field',
+    }))
 
 
 def clean_title(self):
