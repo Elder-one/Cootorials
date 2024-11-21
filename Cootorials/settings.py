@@ -166,19 +166,19 @@ LOGGING = {
         "file0": {
             "level": "DEBUG",
             "class": "logging.FileHandler",
-            "filename": "logs/debug.log",
+            "filename": "/home/Elder9one/Cootorials/logs/debug.log",
             "formatter": "verbose",
         },
         "file1": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": "logs/info.log",
+            "filename": "/home/Elder9one/Cootorials/logs/info.log",
             "formatter": "verbose",
         },
         "file2": {
             "level": "WARNING",
             "class": "logging.FileHandler",
-            "filename": "logs/warning.log",
+            "filename": "/home/Elder9one/Cootorials/logs/warning.log",
             "formatter": "verbose",
         },
     },
