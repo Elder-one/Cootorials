@@ -18,11 +18,11 @@ class NewRecipeForm(forms.Form):
         'placeholder': 'Шаги приготовления',
         'rows': '7'
     }))
-    category = forms.ChoiceField(choices=((categ.name, categ.name) for categ in RecipeCategory.objects.all()),
-                                 widget=forms.Select(attrs={
-                                     'class': 'new-recipe-choice-field',
-                                     'placeholder': 'Выберите',
-                                 }))
+    # category = forms.ChoiceField(choices=((categ.name, categ.name) for categ in RecipeCategory.objects.all()),
+    #                             widget=forms.Select(attrs={
+    #                                'class': 'new-recipe-choice-field',
+    #                                'placeholder': 'Выберите',
+    #                            }))
     image = forms.ImageField(required=True, label='Изображение', widget=forms.FileInput(attrs={
         'class': 'new-recipe-image-field',
     }))
