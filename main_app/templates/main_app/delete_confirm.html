@@ -1,0 +1,26 @@
+{% extends 'base_generic.html' %}
+
+{% block style %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main_style.css' %}">
+{% endblock %}
+
+{% block title %}
+    Добавить рецепт
+{% endblock %}
+
+
+{% block content %}
+    <div class="message-block">
+        <div class="message-title">
+            Подтверждение
+        </div>
+        <h1 class="logout-message">Удалить рецепт?</h1>
+        <div style="padding: 13px 0; margin: 0 0 7px 0;">
+            <form action="{% url 'delete-recipe' rid=rid %}" method="post" class="edit-recipe">
+                {% csrf_token %}
+                <button class="edit-recipe-button" name="delete-recipe" value="{{ rid }}">Удалить</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

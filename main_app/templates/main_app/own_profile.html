@@ -1,0 +1,83 @@
+{% extends 'base_generic.html' %}
+
+{% block style %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main_style.css' %}">
+{% endblock %}
+
+{% block title %}
+    Ваш профиль
+{% endblock %}
+
+{% block content %}
+    <h2 class="user-name-title">{{ user.first_name }} {{ user.last_name }}</h2>
+    <div class="add-recipe-div">
+        <a href="{% url 'add-recipe' %}" class="add-recipe-link">Добавить свой рецепт</a>
+    </div>
+
+    <div class="recipe-type-navigation">
+        <form method="post" action="{% url 'profile-page' uid=user.id %}" class="recipe-category-form">
+            {% csrf_token %}
+            <button class="category-type-button" type="submit" name="own-recipies">Мои рецепты</button>
+            <button class="category-type-button" type="submit" name="liked-recipies">Понравившиеся</button>
+        </form>
+    </div>
+
+    {% if recipies %}
+        <h2 style="color: #79019c;">
+            {% if liked %}
+                Понравившиеся рецепты:
+            {% else %}
+                Ваши рецепты:
+            {% endif %}
+        </h2>
+        <table class="recipe-table">
+            <tr>
+                {% for recipe in recipies %}
+                    {% if forloop.counter0|divisibleby:3 and not forloop.first %}
+                        </tr>
+                        <tr>
+                    {% endif %}
+                    <td class="recipe-cell">
+                        <a href="{% url 'full-recipe' rid=recipe.id %}" class="short-recipe-link">
+                            <div class="short-recipe-div">
+                                <h2 class="recipe-title">{{ recipe.title }}</h2>
+                                <div class="short-recipe-content">
+                                    <img class="recipe-image" src="{{ recipe.image.url }}" alt="Фото блюда">
+                                    <div class="recipe-description">{{ recipe.short_description }}</div>
+                                </div>
+                                <div class="likes">
+                                    {% if user.is_authenticated %}
+                                        {% if recipe not in liked_recipies %}
+                                            <form action="{% url 'profile-page' uid=user.id %}" method="post"
+                                                  class="likes-form">
+                                                {% csrf_token %}
+                                                <button class="like-button" name="like-button" value="{{ recipe.id }}">
+                                                    Мне
+                                                    нравится
+                                                </button>
+                                            </form>
+                                        {% else %}
+                                            <form action="{% url 'profile-page' uid=user.id %}" method="post"
+                                                  class="likes-form">
+                                                {% csrf_token %}
+                                                <button class="unlike-button" name="unlike-button"
+                                                        value="{{ recipe.id }}">Не
+                                                    нравится
+                                                </button>
+                                            </form>
+                                        {% endif %}
+
+                                    {% else %}
+                                        <p class="disclaimer">Авторизуйтесь чтобы добавить рецепт</p>
+                                    {% endif %}
+                                    <div class="likes-count">Понравилось: {{ recipe.likes_count }}</div>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                {% endfor %}
+                </tr>
+        </table>
+    {% endif %}
+{% endblock %}

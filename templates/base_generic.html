@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block style %}
+    {% endblock %}
+    <title>
+        {% block title %}  {% endblock %}
+    </title>
+</head>
+
+<body>
+<div class="container">
+    <div class="menu">
+        <a href="{% url 'home-page' %}" class="nav-link">Главная</a>
+        {% if user.is_authenticated %}
+            <a href="{% url 'profile-page' uid=user.id %}" class="nav-link">Профиль</a>
+            <form style="display: inline-block; box-sizing: border-box"  method="post" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <button class="logout-button"  type="submit">Выйти</button>
+            </form>
+        {% else %}
+            <a href="{% url 'login' %}" class="nav-link">Войти</a>
+        {% endif %}
+    </div>
+
+    {% block content %}
+        Страница не заполнена
+    {% endblock %}
+
+    <div class="footer">
+        <h3 class="contacts">Контакты:</h3>
+        <ul>
+            <li class="contact">E-mail: hmmmm@rambler.ru</li>
+            <li class="contact">Моб. +7 (666) 420-69-69</li>
+        </ul>
+    </div>
+
+</div>
+</body>
+
+</html>

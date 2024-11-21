@@ -1,0 +1,53 @@
+{% extends 'base_generic.html' %}
+
+{% block style %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main_style.css' %}">
+{% endblock %}
+
+{% block title %}
+    Добавить рецепт
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="new-recipe-ground">
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="new-recipe-title">
+                Редактировать рецепт
+            </div>
+            <table class="new-recipe-table">
+                {% csrf_token %}
+                {% for field in form %}
+                    {% if field.field.widget.attrs.class == 'new-recipe-image-field' %}
+                        <tr>
+                            <td>
+                                <h2 class="recipe-field-instruction">
+                                    Загрузите изображение
+                                </h2>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if field.errors %}
+                        {% for error in field.errors %}
+                            <tr>
+                                <td class="field-error">{{ error|escape }}</td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                    <tr>
+                        <td class="new-recipe-cell">
+                            {{ field }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+            <div>
+                <input class="new-recipe-button" type="submit" value="Подтвердить">
+            </div>
+        </form>
+
+    </div>
+
+{% endblock %}

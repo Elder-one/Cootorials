@@ -1,0 +1,271 @@
+INFO 2024-11-20 17:15:25,477 autoreload 776 5724 Watching for file changes with StatReloader
+WARNING 2024-11-20 17:15:36,665 log 776 3496 Not Found: /
+WARNING 2024-11-20 17:15:36,667 basehttp 776 3496 "GET / HTTP/1.1" 404 2626
+INFO 2024-11-20 17:15:42,089 basehttp 776 3496 "GET /auth/sign-in/ HTTP/1.1" 200 2695
+INFO 2024-11-20 17:15:43,776 basehttp 776 3496 "GET /main/profile-page/4/ HTTP/1.1" 200 1994
+INFO 2024-11-20 17:15:45,763 basehttp 776 3496 "GET /main/home-page/ HTTP/1.1" 200 8198
+INFO 2024-11-20 17:15:48,791 views 776 3496 GET request processing ...
+INFO 2024-11-20 17:15:48,836 basehttp 776 3496 "GET /main/full-recipe/6/ HTTP/1.1" 200 2632
+INFO 2024-11-20 17:15:51,297 views 776 3496 processing POST request ...
+INFO 2024-11-20 17:15:51,356 views 776 3496 redirecting to full recipe page
+INFO 2024-11-20 17:15:51,358 basehttp 776 3496 "POST /main/full-recipe/6/ HTTP/1.1" 302 0
+INFO 2024-11-20 17:15:51,365 views 776 3496 GET request processing ...
+INFO 2024-11-20 17:15:51,399 basehttp 776 3496 "GET /main/full-recipe/6/ HTTP/1.1" 200 2634
+INFO 2024-11-20 17:15:54,289 views 776 3496 processing POST request ...
+INFO 2024-11-20 17:15:54,351 views 776 3496 redirecting to full recipe page
+INFO 2024-11-20 17:15:54,352 basehttp 776 3496 "POST /main/full-recipe/6/ HTTP/1.1" 302 0
+INFO 2024-11-20 17:15:54,369 views 776 3496 GET request processing ...
+INFO 2024-11-20 17:15:54,412 basehttp 776 3496 "GET /main/full-recipe/6/ HTTP/1.1" 200 2632
+INFO 2024-11-20 17:15:56,307 basehttp 776 3496 "GET /main/profile-page/3/ HTTP/1.1" 200 6786
+INFO 2024-11-20 17:16:02,276 basehttp 776 3496 "GET /main/profile-page/4/ HTTP/1.1" 200 1994
+INFO 2024-11-21 19:07:29,779 autoreload 2376 2336 Watching for file changes with StatReloader
+WARNING 2024-11-21 19:07:35,689 log 2376 6044 Not Found: /
+WARNING 2024-11-21 19:07:35,692 basehttp 2376 6044 "GET / HTTP/1.1" 404 2626
+WARNING 2024-11-21 19:07:36,608 log 2376 6044 Not Found: /favicon.ico
+WARNING 2024-11-21 19:07:36,608 basehttp 2376 6044 "GET /favicon.ico HTTP/1.1" 404 2677
+INFO 2024-11-21 19:07:53,291 basehttp 2376 4192 "GET /main/profile-page/3/ HTTP/1.1" 200 6786
+INFO 2024-11-21 19:07:53,363 basehttp 2376 4192 "GET /media/images/images_J7lDRyU.jpg HTTP/1.1" 304 0
+INFO 2024-11-21 19:07:53,363 basehttp 2376 3844 "GET /media/images/chars_list_2.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:07:53,377 basehttp 2376 7308 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_6_67fyZQQ.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:07:54,825 basehttp 2376 7308 "GET /main/profile-page/4/ HTTP/1.1" 200 1994
+INFO 2024-11-21 19:07:56,673 basehttp 2376 7308 "GET /main/home-page/ HTTP/1.1" 200 8198
+INFO 2024-11-21 19:07:57,799 basehttp 2376 7308 "POST /auth/logout/ HTTP/1.1" 200 1237
+INFO 2024-11-21 19:07:59,350 basehttp 2376 7308 "GET /main/home-page/ HTTP/1.1" 200 5935
+INFO 2024-11-21 19:08:05,361 views 2376 7308 GET request processing ...
+INFO 2024-11-21 19:08:05,390 basehttp 2376 7308 "GET /main/full-recipe/8/ HTTP/1.1" 200 1984
+INFO 2024-11-21 19:09:11,408 basehttp 2376 5524 "GET /main/profile-page/3/ HTTP/1.1" 200 4541
+INFO 2024-11-21 19:09:13,513 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 5935
+INFO 2024-11-21 19:09:16,404 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:16,404 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:16,439 basehttp 2376 5524 "GET /main/home-page/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D1%82%D1%8B/ HTTP/1.1" 200 3184
+INFO 2024-11-21 19:09:17,457 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:17,457 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:17,487 basehttp 2376 5524 "GET /main/home-page/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8/ HTTP/1.1" 200 3182
+INFO 2024-11-21 19:09:18,269 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:18,273 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:18,304 basehttp 2376 5524 "GET /main/home-page/%D0%92%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 1714
+INFO 2024-11-21 19:09:18,978 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:18,983 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:19,020 basehttp 2376 5524 "GET /main/home-page/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 3253
+INFO 2024-11-21 19:09:20,928 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:20,928 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:20,957 basehttp 2376 5524 "GET /main/home-page/%D0%92%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 1714
+INFO 2024-11-21 19:09:21,671 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:21,674 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:21,705 basehttp 2376 5524 "GET /main/home-page/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8/ HTTP/1.1" 200 3182
+INFO 2024-11-21 19:09:23,456 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:23,458 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:23,488 basehttp 2376 5524 "GET /main/home-page/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D1%82%D1%8B/ HTTP/1.1" 200 3184
+INFO 2024-11-21 19:09:24,405 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:09:24,405 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:09:24,452 basehttp 2376 5524 "GET /main/home-page/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 3253
+INFO 2024-11-21 19:09:25,761 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 5935
+INFO 2024-11-21 19:10:32,201 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:10:32,231 basehttp 2376 5524 "GET /main/full-recipe/7/ HTTP/1.1" 200 1913
+INFO 2024-11-21 19:11:32,084 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 5935
+INFO 2024-11-21 19:12:06,044 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 5935
+INFO 2024-11-21 19:12:07,990 basehttp 2376 5524 "GET /auth/sign-in/ HTTP/1.1" 200 2334
+INFO 2024-11-21 19:12:09,593 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 5935
+INFO 2024-11-21 19:15:48,639 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:15:48,665 basehttp 2376 5524 "GET /main/full-recipe/6/ HTTP/1.1" 200 1915
+INFO 2024-11-21 19:16:10,215 basehttp 2376 5524 "GET /main/profile-page/3/ HTTP/1.1" 200 4541
+INFO 2024-11-21 19:16:17,258 basehttp 2376 5524 "GET /auth/sign-in/ HTTP/1.1" 200 2334
+INFO 2024-11-21 19:16:26,403 basehttp 2376 5524 "GET /auth/sign-up/ HTTP/1.1" 200 3639
+INFO 2024-11-21 19:18:55,804 basehttp 2376 5524 "POST /auth/sign-up/ HTTP/1.1" 200 3978
+INFO 2024-11-21 19:19:43,399 basehttp 2376 5524 "POST /auth/sign-up/ HTTP/1.1" 200 1231
+INFO 2024-11-21 19:19:48,843 basehttp 2376 5524 "GET /auth/sign-in/ HTTP/1.1" 200 2334
+INFO 2024-11-21 19:20:48,913 basehttp 2376 5524 "POST /auth/sign-in/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:20:48,945 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 8198
+INFO 2024-11-21 19:20:58,167 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 2002
+INFO 2024-11-21 19:21:09,948 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 8198
+INFO 2024-11-21 19:21:49,997 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:21:50,028 basehttp 2376 5524 "GET /main/full-recipe/7/ HTTP/1.1" 200 2630
+INFO 2024-11-21 19:22:25,390 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:22:25,428 basehttp 2376 5524 "GET /main/full-recipe/6/ HTTP/1.1" 200 2632
+INFO 2024-11-21 19:22:42,916 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:22:42,942 basehttp 2376 5524 "GET /main/full-recipe/8/ HTTP/1.1" 200 2701
+INFO 2024-11-21 19:23:10,574 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:10,574 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:10,609 basehttp 2376 5524 "GET /main/home-page/%D0%92%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 2075
+INFO 2024-11-21 19:23:12,743 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:12,755 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:12,790 basehttp 2376 5524 "GET /main/home-page/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 4267
+INFO 2024-11-21 19:23:14,225 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:14,225 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:14,257 basehttp 2376 5524 "GET /main/home-page/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8/ HTTP/1.1" 200 4187
+INFO 2024-11-21 19:23:15,909 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:15,909 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:15,957 basehttp 2376 5524 "GET /main/home-page/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D1%82%D1%8B/ HTTP/1.1" 200 4189
+INFO 2024-11-21 19:23:17,740 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:17,742 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:17,775 basehttp 2376 5524 "GET /main/home-page/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8/ HTTP/1.1" 200 4187
+INFO 2024-11-21 19:23:19,074 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:19,074 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:19,108 basehttp 2376 5524 "GET /main/home-page/%D0%92%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 2075
+INFO 2024-11-21 19:23:20,658 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:23:20,658 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:20,723 basehttp 2376 5524 "GET /main/home-page/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 4267
+INFO 2024-11-21 19:23:24,644 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:23:24,684 basehttp 2376 5524 "GET /main/full-recipe/8/ HTTP/1.1" 200 2701
+INFO 2024-11-21 19:23:30,247 views 2376 5524 processing POST request ...
+INFO 2024-11-21 19:23:30,289 views 2376 5524 redirecting to full recipe page
+INFO 2024-11-21 19:23:30,289 basehttp 2376 5524 "POST /main/full-recipe/8/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:23:30,311 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:23:30,339 basehttp 2376 5524 "GET /main/full-recipe/8/ HTTP/1.1" 200 2703
+INFO 2024-11-21 19:23:42,339 basehttp 2376 5524 "GET /main/profile-page/3/ HTTP/1.1" 200 6844
+INFO 2024-11-21 19:24:04,153 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 2002
+INFO 2024-11-21 19:24:06,758 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:24:06,774 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4057
+INFO 2024-11-21 19:24:17,550 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:24:17,574 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 2002
+INFO 2024-11-21 19:24:18,964 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:24:19,003 basehttp 2376 5524 "GET /main/new-recipe/ HTTP/1.1" 200 4373
+INFO 2024-11-21 19:26:43,479 views 2376 5524 processing POST request ...
+INFO 2024-11-21 19:26:43,731 basehttp 2376 5524 "POST /main/new-recipe/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:26:43,742 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4018
+INFO 2024-11-21 19:26:43,996 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_z6M0zuz.png HTTP/1.1" 200 2351301
+INFO 2024-11-21 19:27:09,051 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:27:09,082 basehttp 2376 5524 "GET /main/new-recipe/ HTTP/1.1" 200 4373
+INFO 2024-11-21 19:27:11,573 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 10266
+INFO 2024-11-21 19:27:11,634 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_z6M0zuz.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:27:21,311 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:27:21,346 basehttp 2376 5524 "GET /main/full-recipe/10/ HTTP/1.1" 200 2971
+INFO 2024-11-21 19:27:21,402 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_z6M0zuz.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:27:55,209 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4018
+INFO 2024-11-21 19:27:55,262 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_z6M0zuz.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:28:00,513 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:28:00,543 basehttp 2376 5524 "GET /main/full-recipe/10/ HTTP/1.1" 200 2971
+INFO 2024-11-21 19:28:04,014 views 2376 5524 processing POST request ...
+INFO 2024-11-21 19:28:04,015 views 2376 5524 edit button has been triggered. redirecting to editing page ...
+INFO 2024-11-21 19:28:04,016 basehttp 2376 5524 "POST /main/full-recipe/10/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:28:04,022 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:28:04,041 views 2376 5524 context for editing page is complete. rendering ...
+INFO 2024-11-21 19:28:04,072 basehttp 2376 5524 "GET /main/edit-recipe/10/ HTTP/1.1" 200 4516
+INFO 2024-11-21 19:28:52,145 views 2376 5524 POST request processing ...
+INFO 2024-11-21 19:28:52,189 basehttp 2376 5524 "POST /main/edit-recipe/10/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:28:52,221 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4030
+INFO 2024-11-21 19:28:52,334 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 200 2351301
+INFO 2024-11-21 19:28:57,069 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 10278
+INFO 2024-11-21 19:28:57,128 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:31:48,196 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:31:48,229 basehttp 2376 5524 "GET /main/full-recipe/10/ HTTP/1.1" 200 2983
+INFO 2024-11-21 19:31:48,304 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:32:01,090 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4030
+INFO 2024-11-21 19:32:03,087 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:03,112 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4057
+INFO 2024-11-21 19:32:18,784 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:18,812 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4057
+INFO 2024-11-21 19:32:19,839 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:19,861 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4030
+INFO 2024-11-21 19:32:19,912 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:32:20,998 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:21,011 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4057
+INFO 2024-11-21 19:32:26,393 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4030
+INFO 2024-11-21 19:32:33,811 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:33,864 views 2376 5524 redirecting to profile page
+INFO 2024-11-21 19:32:33,865 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:32:33,900 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:32:34,870 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:34,896 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 5857
+INFO 2024-11-21 19:32:39,760 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:32:39,776 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:32:39,827 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:32:41,860 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 10227
+INFO 2024-11-21 19:33:03,327 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:33:03,327 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:33:03,376 basehttp 2376 5524 "GET /main/home-page/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0/ HTTP/1.1" 200 6235
+INFO 2024-11-21 19:33:03,427 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:33:06,606 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 10227
+INFO 2024-11-21 19:33:14,375 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:33:14,375 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:33:14,421 basehttp 2376 5524 "GET /main/home-page/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D1%82%D1%8B/ HTTP/1.1" 200 4189
+INFO 2024-11-21 19:33:16,375 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:33:16,375 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:33:16,408 basehttp 2376 5524 "GET /main/home-page/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8/ HTTP/1.1" 200 4187
+INFO 2024-11-21 19:33:18,059 views 2376 5524 process POST-request ...
+INFO 2024-11-21 19:33:18,059 basehttp 2376 5524 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:33:18,093 basehttp 2376 5524 "GET /main/home-page/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D1%82%D1%8B/ HTTP/1.1" 200 4189
+INFO 2024-11-21 19:34:00,440 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:34:00,484 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:34:05,159 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 10227
+INFO 2024-11-21 19:34:20,596 views 2376 5524 GET request processing ...
+INFO 2024-11-21 19:34:20,635 basehttp 2376 5524 "GET /main/full-recipe/7/ HTTP/1.1" 200 2630
+INFO 2024-11-21 19:35:14,417 basehttp 2376 5524 "GET /main/profile-page/3/ HTTP/1.1" 200 6844
+INFO 2024-11-21 19:35:18,225 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:35:18,268 views 2376 5524 redirecting to profile page
+INFO 2024-11-21 19:35:18,268 basehttp 2376 5524 "POST /main/profile-page/3/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:35:18,300 basehttp 2376 5524 "GET /main/profile-page/3/ HTTP/1.1" 200 6902
+INFO 2024-11-21 19:35:21,266 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:35:21,310 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:35:22,086 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:35:22,102 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 7590
+INFO 2024-11-21 19:35:24,821 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:35:24,836 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:35:26,952 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:35:26,968 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 7590
+INFO 2024-11-21 19:35:30,037 views 2376 5524 process POST request ...
+INFO 2024-11-21 19:35:30,054 basehttp 2376 5524 "POST /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:35:38,307 basehttp 2376 5524 "GET /main/home-page/ HTTP/1.1" 200 10176
+INFO 2024-11-21 19:37:04,794 basehttp 2376 5524 "GET /main/profile-page/5/ HTTP/1.1" 200 4035
+INFO 2024-11-21 19:37:04,858 basehttp 2376 5524 "GET /media/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_5_bTDCnPg.png HTTP/1.1" 304 0
+INFO 2024-11-21 19:37:45,432 autoreload 7008 2880 Watching for file changes with StatReloader
+WARNING 2024-11-21 19:37:49,210 log 7008 7052 Not Found: /
+WARNING 2024-11-21 19:37:49,260 basehttp 7008 7052 "GET / HTTP/1.1" 404 2626
+WARNING 2024-11-21 19:37:49,980 log 7008 7052 Not Found: /favicon.ico
+WARNING 2024-11-21 19:37:49,992 basehttp 7008 7052 "GET /favicon.ico HTTP/1.1" 404 2677
+INFO 2024-11-21 19:37:56,607 basehttp 7008 4964 "GET /main/home-page/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D1%82%D1%8B/ HTTP/1.1" 200 1714
+INFO 2024-11-21 19:37:57,972 basehttp 7008 4964 "GET /main/home-page/ HTTP/1.1" 200 1714
+INFO 2024-11-21 19:40:19,277 basehttp 7008 4964 "GET /auth/sign-in/ HTTP/1.1" 200 2334
+INFO 2024-11-21 19:40:20,316 basehttp 7008 4964 "GET /auth/sign-up/ HTTP/1.1" 200 3639
+INFO 2024-11-21 19:40:55,923 basehttp 7008 4964 "POST /auth/sign-up/ HTTP/1.1" 200 1231
+INFO 2024-11-21 19:40:56,850 basehttp 7008 4964 "GET /auth/sign-in/ HTTP/1.1" 200 2334
+INFO 2024-11-21 19:41:12,256 basehttp 7008 4964 "POST /auth/sign-in/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:41:12,280 basehttp 7008 4964 "GET /main/home-page/ HTTP/1.1" 200 2075
+INFO 2024-11-21 19:41:14,354 basehttp 7008 4964 "GET /main/profile-page/6/ HTTP/1.1" 200 2004
+INFO 2024-11-21 19:41:15,301 views 7008 4964 GET request processing ...
+INFO 2024-11-21 19:41:15,339 basehttp 7008 4964 "GET /main/new-recipe/ HTTP/1.1" 200 4373
+INFO 2024-11-21 19:42:56,532 views 7008 4964 processing POST request ...
+INFO 2024-11-21 19:42:56,767 basehttp 7008 4964 "POST /main/new-recipe/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:42:56,802 basehttp 7008 4964 "GET /main/profile-page/6/ HTTP/1.1" 200 4177
+INFO 2024-11-21 19:42:56,976 basehttp 7008 4964 "GET /media/images/sm_247393.jpg HTTP/1.1" 200 8704
+INFO 2024-11-21 19:43:02,342 views 7008 4964 GET request processing ...
+INFO 2024-11-21 19:43:02,496 basehttp 7008 4964 "GET /main/full-recipe/11/ HTTP/1.1" 200 3478
+INFO 2024-11-21 19:43:02,698 basehttp 7008 4964 "GET /media/images/sm_247393.jpg HTTP/1.1" 304 0
+INFO 2024-11-21 19:44:30,655 basehttp 7008 4964 "GET /main/home-page/ HTTP/1.1" 200 4401
+INFO 2024-11-21 19:44:30,703 basehttp 7008 4964 "GET /media/images/sm_247393.jpg HTTP/1.1" 304 0
+INFO 2024-11-21 19:53:10,078 views 7008 3808 process POST-request ...
+INFO 2024-11-21 19:53:10,118 views 7008 3808 redirecting to home page
+INFO 2024-11-21 19:53:10,120 basehttp 7008 3808 "POST /main/home-page/ HTTP/1.1" 302 0
+INFO 2024-11-21 19:53:10,160 basehttp 7008 3808 "GET /main/home-page/None/ HTTP/1.1" 200 4350
+INFO 2024-11-21 19:53:10,223 basehttp 7008 3808 "GET /media/images/sm_247393.jpg HTTP/1.1" 304 0
+INFO 2024-11-21 20:23:08,457 autoreload 7008 2880 C:\Users\Alex\PycharmProjects\Cootorials\Cootorials\Cootorials\settings.py changed, reloading.
+INFO 2024-11-21 20:23:11,248 autoreload 2256 4624 Watching for file changes with StatReloader
+INFO 2024-11-21 20:25:20,095 autoreload 2256 4624 C:\Users\Alex\PycharmProjects\Cootorials\Cootorials\Cootorials\settings.py changed, reloading.
+INFO 2024-11-21 20:25:21,784 autoreload 5020 7712 Watching for file changes with StatReloader
+INFO 2024-11-21 20:27:25,929 autoreload 5020 7712 C:\Users\Alex\PycharmProjects\Cootorials\Cootorials\Cootorials\settings.py changed, reloading.
+INFO 2024-11-21 20:27:27,715 autoreload 3300 6676 Watching for file changes with StatReloader
+INFO 2024-11-21 20:28:07,666 autoreload 3300 6676 C:\Users\Alex\PycharmProjects\Cootorials\Cootorials\Cootorials\settings.py changed, reloading.
+INFO 2024-11-21 20:28:09,498 autoreload 3092 2712 Watching for file changes with StatReloader
+INFO 2024-11-21 20:28:57,377 autoreload 3092 2712 C:\Users\Alex\PycharmProjects\Cootorials\Cootorials\Cootorials\settings.py changed, reloading.
+INFO 2024-11-21 20:29:00,398 autoreload 2708 1160 Watching for file changes with StatReloader
+INFO 2024-11-21 20:48:27,828 autoreload 3128 4584 Watching for file changes with StatReloader
+INFO 2024-11-21 20:51:45,077 autoreload 7212 5256 Watching for file changes with StatReloader
+WARNING 2024-11-21 20:52:21,767 log 7212 5764 Not Found: /
+WARNING 2024-11-21 20:52:21,768 basehttp 7212 5764 "GET / HTTP/1.1" 404 2626
+WARNING 2024-11-21 20:52:22,353 log 7212 5764 Not Found: /favicon.ico
+WARNING 2024-11-21 20:52:22,355 basehttp 7212 5764 "GET /favicon.ico HTTP/1.1" 404 2677
+WARNING 2024-11-21 20:52:26,665 base 7212 5764 Session data corrupted
+INFO 2024-11-21 20:52:26,711 basehttp 7212 5764 "GET /auth/sign-in/ HTTP/1.1" 200 2334
+WARNING 2024-11-21 20:52:45,247 base 7212 5764 Session data corrupted
+INFO 2024-11-21 20:52:45,305 basehttp 7212 5764 "POST /auth/sign-in/ HTTP/1.1" 302 0
+INFO 2024-11-21 20:52:45,362 basehttp 7212 5764 "GET /main/home-page/ HTTP/1.1" 200 4350
+INFO 2024-11-21 20:52:45,425 basehttp 7212 5764 "GET /media/images/sm_247393.jpg HTTP/1.1" 304 0
+INFO 2024-11-21 20:53:03,679 basehttp 7212 5764 "GET /main/home-page/ HTTP/1.1" 200 4350
+INFO 2024-11-21 22:13:35,265 autoreload 7752 7900 Watching for file changes with StatReloader
+WARNING 2024-11-21 22:14:02,364 log 7752 4264 Not Found: /
+WARNING 2024-11-21 22:14:02,367 basehttp 7752 4264 "GET / HTTP/1.1" 404 2626
+INFO 2024-11-21 22:14:07,095 views 7752 4264 invalid uid. page not found
+INFO 2024-11-21 22:14:07,158 basehttp 7752 4264 "GET /main/profile-page/3/ HTTP/1.1" 200 1648
+INFO 2024-11-21 22:14:08,530 basehttp 7752 4264 "GET /main/home-page/ HTTP/1.1" 200 4350
+INFO 2024-11-21 22:14:08,597 basehttp 7752 4264 "GET /media/images/sm_247393.jpg HTTP/1.1" 304 0
+INFO 2024-11-21 22:14:11,200 basehttp 7752 4264 "GET /main/profile-page/6/ HTTP/1.1" 200 4182

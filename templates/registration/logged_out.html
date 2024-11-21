@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block style %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main_style.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="message-block">
+        <div class="message-title">
+            Сообщение
+        </div>
+        <h1 class="logout-message">{% block message %}Вы вышли из аккаунта!{% endblock %}</h1>
+        <div style="padding: 13px 0; margin: 0 0 7px 0;">
+            <a class="logout-main-link" href="{% url 'home-page' %}">Главная</a>
+        </div>
+    </div>
+{% endblock %}

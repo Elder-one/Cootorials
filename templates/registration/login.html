@@ -1,0 +1,54 @@
+{% extends 'base_generic.html' %}
+
+{% block style %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'sign_in_style.css' %}">
+{% endblock %}
+
+{% block title %}
+    Вход
+{% endblock %}
+
+{% block content %}
+
+    {% if next %}
+        {% if user.is_authenticated %}
+            <p>У вашего аккаунта нет доступа к данной странице.</p>
+        {% else %}
+            <p>Пожалуйста, <a href="{% url 'login' %}">войдите</a>
+                чтобы увидеть эту страницу</p>
+        {% endif %}
+    {% endif %}
+
+    <div class="sign-in-form-container">
+        <div class="sign-in-title">
+            Вход в аккаунт
+        </div>
+        {% if form.errors %}
+            <p style="color: red; padding-top: 7px;">E-mail и пароль не совпали. Попробуйте снова.</p>
+        {% endif %}
+        <form method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <table class="sign-in-table">
+                <tr>
+                    <td class="sign-in-cell">{{ form.username }}</td>
+                </tr>
+                <tr>
+                    <td class="sign-in-cell">{{ form.password }}</td>
+                </tr>
+                <tr>
+                    <td class="sign-in-cell">
+                        <input class="sign-in-button" type="submit" value="Войти">
+                    </td>
+                </tr>
+            </table>
+
+            <input type="hidden" name="next" value="{{ next }}">
+        </form>
+        <div class="links">
+            <div class="left-link"><a href="{% url 'sign-up' %}">Создать аккаунт</a></div>
+            <div class="right-link"><a href="{% url 'password_reset' %}">Забыли пароль?</a></div>
+        </div>
+    </div>
+
+{% endblock %}
